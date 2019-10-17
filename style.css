@@ -1,0 +1,110 @@
+
+body {
+	background-color: #F6F7F9;
+	color: #27243B;
+	text-align: justify;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Coming Soon', cursive;
+
+}
+
+h1, h2 {
+  color: #4C4C78;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+a {
+  color: #A184B8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #755C88;
+  text-decoration: none;
+}
+
+.container {
+	width: 750px;
+	margin: 70px auto;
+}
+@media (max-width: 5000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+	width: 750px;
+	margin: 70px auto;
+  }
+}
+@media (max-width: 750px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+	width: 450px;
+	margin: 70px auto;
+  }
+  .btn-CTA {
+  	font-size: 10px
+  }
+}
+@media (max-width: 450px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+	width: 300px;
+	margin: 70px auto;
+  }
+    .btn-CTA {
+  	font-size: 8px
+  }
+}
+.card-white {
+	background: white;
+    padding: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 40px 20px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-CTA {
+	background-color: #A184B8;
+	color: white;
+	padding: 15px  20px;
+	border-radius: 10px;
+	transition: background-color 0.3s ease;
+
+}
+.btn-CTA:hover {
+	background-color: #755C88;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: #2674B0;
+}
+.list-inline i:hover {
+	color: #1E5B8B;
+}
+#bio p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
